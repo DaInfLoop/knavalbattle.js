@@ -10,7 +10,7 @@ import {
     ChatMessage, 
     NickMessage, 
     Message
-} from "./message";
+} from "./message.js";
 import EventEmitter from "node:events";
 import { createConnection, type Socket } from 'node:net';
 
@@ -254,8 +254,6 @@ export class NavalClient extends EventEmitter<{
 
     #handleMessage(xmlStr: string) {
         const message = Message.fromXML(xmlStr);
-
-        console.log("RECV", message)
 
         if (message instanceof HeaderMessage) {
             const myHeader = new HeaderMessage(
