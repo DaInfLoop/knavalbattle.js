@@ -27,7 +27,9 @@
   "dependencies": {
     "fast-xml-parser": "^5.2.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/node": "^24.3.0"
+  },
   "peerDependencies": {
     "typescript": "^5"
   }

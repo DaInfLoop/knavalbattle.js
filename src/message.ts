@@ -135,7 +135,6 @@ export abstract class Message {
             case MessageType.Reject:
                 return new RejectMessage(kmessage.versionMismatch as boolean, kmessage.reason as string)
             default:
-                console.log(kmessage)
                 throw new Error(`Unknown message type: ${type}`);
         }
     }
