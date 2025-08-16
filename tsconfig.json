@@ -3,7 +3,7 @@
     // Environment setup & latest features
     "lib": ["ESNext"],
     "target": "ESNext",
-    "module": "ESNext",
+    "module": "nodenext",
     "moduleDetection": "force",
     "jsx": "react-jsx",
     "allowJs": true,
@@ -15,7 +15,7 @@
     "sourceMap": true,                // optional: source maps for debugging
 
     // Bundler mode
-    "moduleResolution": "bundler",
+    "moduleResolution": "nodenext",
     "verbatimModuleSyntax": true,
     "noEmit": false,                  // <-- allow emitting
 
