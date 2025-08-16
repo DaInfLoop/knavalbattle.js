@@ -1,6 +1,6 @@
 {
   "name": "knavalbattle.js",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A Node.js library for KNavalBattle/KBattleship.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,6 +10,11 @@
     "kbattleship",
     "kde"
   ],
+  "exports": {
+    ".": "./dist/index.js",
+    "./client": "./dist/client.js",
+    "./message": "./dist/message.js"
+  },
   "scripts": {
     "build": "tsc"
   },
