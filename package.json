@@ -1,0 +1,34 @@
+{
+  "name": "knavalbattle.js",
+  "version": "1.0.0",
+  "description": "A Node.js library for KNavalBattle/KBattleship.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "keywords": [
+    "knavalbattle",
+    "kbattleship",
+    "kde"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "homepage": "https://github.com/DaInfLoop/knavalbattle.js#readme",
+  "bugs": {
+    "url": "https://github.com/DaInfLoop/knavalbattle.js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaInfLoop/knavalbattle.js.git"
+  },
+  "license": "MIT",
+  "author": "DaInfLoop <mail@dainfloop.is-a.dev>",
+  "type": "module",
+  "dependencies": {
+    "fast-xml-parser": "^5.2.5"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
